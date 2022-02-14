@@ -14,15 +14,22 @@ centroid, label, iter_num = k_means(data, k, seed=None)
 centroid2, label2, iter_num2 = k_means_plus_plus(data, k, seed=None)
 ```
 #### argument:
-> 1. data:     should be 2d array with shape (n_samples, n_features in every sample)
-> 2. k:        num of cluster
-> 3. max_iter: max iteration
-> 4. seed:     numpy random seed, if you want to reproduce the result, please set a value  
+> * data:     
+>   should be 2d array with shape (n_samples, n_features in every sample)
+> * k:  
+>   num of cluster  
+> * max_iter:  
+>   max iteration  
+> * seed:  
+>   numpy random seed, if you want to reproduce the result, please set a value  
   
 #### return:  
-> 1. centroid: ndarray. the centroid of every cluster, 2d array (n_cluster, n_features)  
-> 2. label:    ndarray. the cluster label to which every data sample belong  
-> 3. iter_num: how many iteration to get the result   
+> * centroid:  
+>   ndarray. the centroid of every cluster, 2d array (n_cluster, n_features)   
+> * label:    
+>   ndarray. the cluster label to which every data sample belong    
+> * iter_num:   
+>   how many iteration to get the result    
 
 # Speed
 The K is set to 3, max_iter = 1.  
