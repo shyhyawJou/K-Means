@@ -34,8 +34,7 @@ My code is faster than `scikit-learn 1.0` when the max_iter is set to the same.
 If you didn't set the value of max_iter (set to None), the iteration didn't stop 
 until the element within every cluster no longer change.
 
-When number of data is very huge such as billion, it may take some time   
-to iterate until the element within every cluster no longer change.
+When number of data is very huge such as billion, it may take some time to iterate data until the elements within every cluster no longer change.
 
 So when data is very big, set the max_iter is a good choice.  
 
