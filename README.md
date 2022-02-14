@@ -1,1 +1,3 @@
-# K-Means-K-Means-
+# K-Means and K-Means++
+
+
