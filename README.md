@@ -1,7 +1,7 @@
 # K-Means and K-Means++
 
 
-# Speed
+## Speed
 
-# Usage
+## Usage
 
