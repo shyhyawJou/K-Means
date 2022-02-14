@@ -20,8 +20,8 @@ centroid2, label2, iter_num2 = k_means_plus_plus(data, k, seed=None)
 > 4. seed:     numpy random seed, if you want to reproduce the result, please set a value  
   
 #### return:  
-> 1. centroid: the centroid of every cluster, 2d array (n_cluster, n_features)  
-> 2. label:    the cluster label to which every data sample belong  
+> 1. centroid: ndarray. the centroid of every cluster, 2d array (n_cluster, n_features)  
+> 2. label:    ndarray. the cluster label to which every data sample belong  
 > 3. iter_num: how many iteration to get the result   
 
 # Speed
